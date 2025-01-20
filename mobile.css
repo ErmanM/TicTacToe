@@ -24,6 +24,7 @@
    .container{
     width: 90%;
    }
+
    .register{
     margin: 0;
     padding: 0;
@@ -66,10 +67,12 @@
 
    #playerName2{
     margin-left: 20px;
+    color: #4995c4;
    }
 
    #playerName1{
     margin-right: 20px;
+    color: #9433b8;
    }
    
 }

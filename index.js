@@ -38,8 +38,8 @@ function save() {
   let player1 = document.getElementById("player1").value;
   let player2 = document.getElementById("player2").value;
 
-  document.getElementById("playerName1").innerText = player1;
-  document.getElementById("playerName2").innerText = player2;
+  document.getElementById("playerName1").innerText ="X " + player1;
+  document.getElementById("playerName2").innerText = player2 + " O";
 
   if (player1.length === 0 || player2.length === 0) {
     let required = document.getElementById("required-field");

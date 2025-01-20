@@ -177,6 +177,7 @@ justify-content: space-evenly;
     font-size: 20px;
     height: fit-content;
     margin-right: 30px;
+    color: #4995c4;
 }
 
 #player2{
@@ -187,4 +188,5 @@ justify-content: space-evenly;
     padding: 15px;
     font-size: 20px;
     height: fit-content;
+    color: #9433b8;
 }

@@ -25,11 +25,13 @@
    #playerName2{
     margin-left: 20px;
     display: flex;
+    color: #9433b8;
    }
 
    #playerName1{
     margin-right: 20px;
     display: flex;
+    color: #4995c4;
    }
 
    .player2, .player1{
