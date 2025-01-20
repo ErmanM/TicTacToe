@@ -1,0 +1,40 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+#playerName1, #playerName2 {
+    display: none;
+   }
+
+
+.register{
+        width: 85%;
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+    }
+
+   .wraper{
+    width: 100%;
+   }
+
+   .container{
+    width: 40%;
+   }
+
+   #playerName2{
+    margin-left: 20px;
+    display: flex;
+   }
+
+   #playerName1{
+    margin-right: 20px;
+    display: flex;
+   }
+
+   .player2, .player1{
+    display: none;
+   }
+
+
+}

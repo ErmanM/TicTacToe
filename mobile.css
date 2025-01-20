@@ -1,0 +1,76 @@
+@media only screen and (max-width: 768px) {
+
+    .required{
+        width: auto;
+    }
+    
+    #player1{
+        width: auto;
+    }
+
+   .player1{
+    display: none;
+   }
+
+   .player-mobile {
+    display: block;
+   }
+
+
+   .player2{
+    display: none;
+   }
+
+   .container{
+    width: 90%;
+   }
+   .register{
+    margin: 0;
+    padding: 0;
+    width: 95%;
+   }
+
+   .input{
+    display: grid;
+    margin: 0;
+    padding: 0;
+   }
+
+   #player1{
+    margin-bottom: 20px;
+    width: 80%;
+   }
+
+   #player2{
+    width: 80%;
+   }
+
+   h1{
+    height: fit-content;
+   }
+   
+   .wraper{
+    width: 100%;
+   }
+
+   .settigsvg{
+    margin: 0;
+   }
+
+   .score{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+   }
+
+   #playerName2{
+    margin-left: 20px;
+   }
+
+   #playerName1{
+    margin-right: 20px;
+   }
+   
+}
+  

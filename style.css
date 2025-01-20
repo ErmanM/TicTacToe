@@ -1,0 +1,190 @@
+body{
+    background-color: rgb(50, 53, 80);
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+h1{
+    text-align: center;
+    color: orange;
+    margin: 0;
+}
+
+.settigsvg{
+    fill: rgb(190, 49, 49);
+    margin-left: 30px;
+    height: 50px;
+    width: 50px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.player-mobile{
+    display: none;
+}
+
+
+.player1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4995c4;
+    width: auto;
+    height: auto;
+
+
+}
+
+.player2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9433b8;
+    width: auto;
+    
+    
+}
+
+
+
+.restartBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wraper{
+display: flex;
+justify-content: space-evenly;
+
+}
+
+.restartBtn > button{
+    background-color:rgb(190, 49, 49);
+    margin-top: 20px;
+    padding: 15px;
+    width: fit-content;
+    color: rgb(50, 53, 80);
+    font-size: 35px;
+    border: navajowhite;
+    border-radius: 7%;
+}
+
+.unclickalbe{
+    pointer-events: none;
+}
+
+.container{
+    cursor: crosshair;
+    margin-top: 50px;
+    width: 25%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 5fr 5fr 5fr ;
+    grid-template-rows: 5fr 5fr 5fr;
+}
+
+
+
+.header > h2{
+    display: flex;
+    text-align: center;
+    color: rgb(184, 69, 77);
+    margin-bottom: 20px;
+    
+}
+
+.spot{
+    background-color: rgb(50, 53, 80);
+    border-color: rgb(184, 69, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    color: rgb(184, 69, 77);
+    
+}
+
+
+
+#spot1, #spot4, #spot7{
+    box-sizing: border-box;
+    border-right: 5px solid rgb(184, 69, 77);
+} 
+
+#spot2, #spot5, #spot8{
+    box-sizing: border-box;
+    border-right: 5px solid rgb(184, 69, 77);
+}
+
+#spot1, #spot2, #spot3{
+    border-bottom: 5px solid rgb(184, 69, 77);
+}
+
+#spot4, #spot5, #spot6{
+    border-bottom: 5px solid rgb(184, 69, 77);
+}
+
+.input{
+    display: flex;
+}
+  
+.save > button{
+    font-size: 25px;
+    padding: 10px;
+    background-color: rgb(50, 53, 80);
+    color: white;
+}
+
+.save{
+    display: flex;
+    justify-content: center;
+}
+
+.required {
+    display: none;
+    text-align: center;
+    font-size: 25px;
+    justify-content: center;
+    color: red;
+}
+
+.register{
+    border-radius: 5%;
+    margin-left: 350px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgb(116, 9, 50);
+    width: 50%;
+    height: 500px;
+
+}
+
+
+#player1{
+    background-color: rgb(50, 53, 80);
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    height: fit-content;
+    margin-right: 30px;
+}
+
+#player2{
+    color: white;
+    background-color: white;
+    background-color: rgb(50, 53, 80);
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    height: fit-content;
+}
